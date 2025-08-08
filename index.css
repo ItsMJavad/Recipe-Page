@@ -99,7 +99,7 @@ h2 {
     font-size: 1rem;
     color: rgb(78, 78, 78);
     margin-bottom: 0.7rem;
-    padding-left: 1rem;
+    padding-inline-start: 1rem;
 }
 
 .instructions ol li::marker {
@@ -135,7 +135,7 @@ h2 {
 }
 
 .nutrition table tr .left {
-    padding-left: 2rem;
+    padding-inline-start: 2rem;
 }
 
 .nutrition table tr .right {
