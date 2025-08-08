@@ -1,0 +1,138 @@
+@font-face {
+    font-family: outfit;
+    src: url(fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: young-serif;
+    src: url(fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+body {
+    background-color: #f3e5d8;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 55%;
+    background-color: white;
+    margin: 6rem auto;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+main div {
+    width: 90%;
+}
+
+.image img {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'young-serif';
+    font-weight: 400;
+}
+
+h2 {
+    font-family: 'young-serif';
+    font-weight: 400;
+    color: #844631;
+}
+
+.intro p {
+    font-family: 'outfit';
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.preparation {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #fff7fc;
+    font-family: 'outfit';
+    font-size: 1rem;
+}
+
+.preparation h3 {
+    padding-left: 1rem;
+    color: #793450;
+}
+
+.preparation ul li {
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+.preparation ul li::marker {
+    font-size: 0.7rem;
+}
+
+.ingredients ul li {
+    padding-left: 10px;
+    font-family: 'outfit';
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.ingredients ul li::marker {
+    font-size: 0.7rem;
+}
+
+.instructions ol li {
+    font-family: 'outfit';
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 0.7rem;
+    padding-left: 1rem;
+}
+
+.instructions ol li::marker {
+    color: #844631;
+    font-weight: 600;
+}
+
+.nutrition {
+    font-family: 'outfit';
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.nutrition table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.nutrition table tr {
+    border-bottom: 1px solid lightgray;
+}
+
+.nutrition table tr td {
+    width: 50%;
+    padding: 0.7rem 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nutrition table tr:last-child {
+    border-bottom: none;
+}
+
+.nutrition table tr .left {
+    padding-left: 2rem;
+}
+
+.nutrition table tr .right {
+    color: #844631;
+    font-weight: 600;
+}
