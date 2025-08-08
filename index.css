@@ -15,7 +15,7 @@ body {
 }
 
 main {
-    width: 55%;
+    width: max(55%, 30rem);
     background-color: white;
     margin: 6rem auto;
     padding: 2rem 0;
@@ -51,6 +51,7 @@ h2 {
     font-family: 'outfit';
     font-weight: 400;
     font-size: 1rem;
+    color: rgb(78, 78, 78);
 }
 
 .preparation {
@@ -63,13 +64,15 @@ h2 {
     font-size: 1rem;
 }
 
-.preparation h3 {
+.preparation p {
     padding-left: 1rem;
     color: #793450;
+    font-size: 1.1rem;
 }
 
 .preparation ul li {
     text-align: left;
+    color: rgb(78, 78, 78);
     margin-bottom: 0.5rem;
 }
 
@@ -82,6 +85,7 @@ h2 {
     font-family: 'outfit';
     font-weight: 400;
     font-size: 1rem;
+    color: rgb(78, 78, 78);
     margin-bottom: 0.5rem;
 }
 
@@ -93,6 +97,7 @@ h2 {
     font-family: 'outfit';
     font-weight: 400;
     font-size: 1rem;
+    color: rgb(78, 78, 78);
     margin-bottom: 0.7rem;
     padding-left: 1rem;
 }
@@ -106,6 +111,7 @@ h2 {
     font-family: 'outfit';
     font-size: 1rem;
     font-weight: 400;
+    color: rgb(78, 78, 78);
 }
 
 .nutrition table {
@@ -135,4 +141,25 @@ h2 {
 .nutrition table tr .right {
     color: #844631;
     font-weight: 600;
+}
+
+@media (max-width:768px) {
+    main {
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+        padding: 0 0 2rem;
+    }
+
+    main div {
+        width: 90%;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .image img {
+        border-radius: 0;
+    }
 }
